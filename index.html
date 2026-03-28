@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Revision Tool - Grade 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>French Revision - 5ème Primaire</h1>
+            <p>Test your knowledge with these exercises from your revision sheet.</p>
+        </header>
+
+        <section class="exercise-section">
+            <h2>1) Put the sentences in the "Passé Récent":</h2>
+            <div class="question-box">
+                <p>1. Nous arrivons à l'école.</p>
+                <input type="text" id="pr1" placeholder="Type answer here...">
+                
+                <p>2. Jean marque un but.</p>
+                <input type="text" id="pr2" placeholder="Type answer here...">
+                
+                <p>3. Elles prennent le bus.</p>
+                <input type="text" id="pr3" placeholder="Type answer here...">
+                
+                <p>4. Tu fais tes exercices.</p>
+                <input type="text" id="pr4" placeholder="Type answer here...">
+
+                <p>5. Il ouvre la porte.</p>
+                <input type="text" id="pr5" placeholder="Type answer here...">
+            </div>
+        </section>
+
+        <section class="exercise-section">
+            <h2>2) Complete with the correct color adjective:</h2>
+            <div class="question-box">
+                <p>1. La jupe est (noir)...</p>
+                <input type="text" id="col1" placeholder="Correct color...">
+                
+                <p>2. La robe est (gris)...</p>
+                <input type="text" id="col2" placeholder="Correct color...">
+                
+                <p>3. La ceinture est (blanc)...</p>
+                <input type="text" id="col3" placeholder="Correct color...">
+            </div>
+        </section>
+
+        <section class="exercise-section">
+            <h2>3) Write the correct words:</h2>
+            <div class="question-box">
+                <p>1. le tr _ _ _</p>
+                <input type="text" id="voc1" placeholder="Complete the word...">
+                
+                <p>2. des val _ _ _ es</p>
+                <input type="text" id="voc2" placeholder="Complete the word...">
+                
+                <p>3. la b _ _ la _ gerie</p>
+                <input type="text" id="voc3" placeholder="Complete the word...">
+            </div>
+        </section>
+
+        <div class="action-area">
+            <button onclick="checkPerformance()">Check My Answers</button>
+            <div id="score-board"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
